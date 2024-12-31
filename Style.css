@@ -1,0 +1,39 @@
+*
+{
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+.Content
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    margin: auto auto;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container img
+{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.container img:hover
+{
+    width: 25%;
+}
